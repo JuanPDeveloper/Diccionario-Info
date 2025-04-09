@@ -1,0 +1,474 @@
+{
+  "conceptos": [
+    {
+      "termino": "ASCII",
+      "definicion": "Código estándar para representación de caracteres en computadoras.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ASCII-Table-wide.svg/800px-ASCII-Table-wide.svg.png?20221024154539"
+    },
+    {
+      "termino": "Acceso directo",
+      "definicion": "Enlace a un archivo o programa para acceso rápido.",
+      "img": "https://ecosistemas.win/wp-content/uploads/acceso-directo-1024x536.jpg"
+    },
+    {
+      "termino": "Alfanumérico",
+      "definicion": "Caracteres que incluyen letras y números.",
+      "img": "https://www.que.es/wp-content/uploads/2021/01/Que-es-alfanumerico-7.jpg"
+    },
+    {
+      "termino": "Algoritmo",
+      "definicion": "Secuencia ordenada y finita de instrucciones o pasos diseñados para resolver un problema o realizar una tarea específica",
+      "img": "https://media.gcflearnfree.org/content/638a7896c391561b64497aad_12_02_2022/Paso_8_revisar%20diagrama%20de%20flujo_conceptos%20ba%CC%81sicos%20computacio%CC%81n.png"
+    },
+    {
+      "termino": "Ancho de banda",
+      "definicion": "Cantidad de datos que se pueden transmitir en un tiempo dado.",
+      "img": "https://www.tecnoseguro.com/media/k2/items/cache/3f89a4e20cffd2f55d9618fe87569059_XL.jpg"
+    },
+    {
+      "termino": "Antivirus",
+      "definicion": "Software para detectar y eliminar software malicioso.",
+      "img": "https://www.copianube.es/wp-content/uploads/2021/06/Tipos-de-antivirus-y-sus-funciones-1024x594.jpg"
+    },
+    {
+      "termino": "ARPANet",
+      "definicion": "Precursor de Internet.",
+      "img": "https://i.ytimg.com/vi/-W7_wqWYzTY/hqdefault.jpg"
+    },
+    {
+      "termino": "AutoCad",
+      "definicion": "Software de diseño asistido por computadora.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZowEcfZITIBZ3DKVsiRfr42ZCR7WEa2FUMg&s"
+    },
+    {
+      "termino": "Back door",
+      "definicion": "Método oculto para acceder a un sistema sin autorización.",
+      "img": "https://www.pichincha.com/_cache_59b3/content/backdoor-5921200000181411.jpeg"
+    },
+    {
+      "termino": "Backup",
+      "definicion": "Copia de seguridad de datos.",
+      "img": "https://iosafe.com/wp-content/uploads/2020/04/3-types-of-backup.png"
+    },
+    {
+      "termino": "Banner",
+      "definicion": "Anuncio publicitario en línea.",
+      "img": "https://m.media-amazon.com/images/I/61rso93xlkL.jpg"
+    },
+    {
+      "termino": "Base de datos",
+      "definicion": "Colección organizada de datos.",
+      "img": "https://www.godaddy.com/resources/latam/wp-content/uploads/sites/4/2023/06/portada_base-de-datos.png?size=3840x0"
+    },
+    {
+      "termino": "Binario",
+      "definicion": "Sistema numérico de base 2, usado en computadoras.",
+      "img": "https://codelearn.es/wp-content/uploads/sites/4/2022/09/binary-code.jpg"
+    },
+    {
+      "termino": "BIOS",
+      "definicion": "Software que inicia el hardware al encender la computadora.",
+      "img": "https://d1q3zw97enxzq2.cloudfront.net/images/BIOS.width-1000.format-webp.webp"
+    },
+    {
+      "termino": "Bit",
+      "definicion": "Unidad mínima de información en una computadora.",
+      "img": "https://miro.medium.com/v2/resize:fit:1400/1*GT4sK7zXQmuFxnd9ivs5Iw.jpeg"
+    },
+    {
+      "termino": "Boot",
+      "definicion": "Proceso de inicio de una computadora.",
+      "img": "https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2020/12/30060418/GRUB_with_ubuntu_and_windows_vista.png"
+    },
+    {
+      "termino": "Browser",
+      "definicion": "Software para navegar por Internet.",
+      "img": "https://images.ctfassets.net/lzny33ho1g45/5ZJErf03aLYbP4HwY0AV1X/fb458a09dc43b7bcd0f76e372e7de152/best-web-browsers.jpg"
+    },
+    {
+      "termino": "Buffer",
+      "definicion": "Área de memoria temporal para almacenar datos.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Intel_%C2%AE_6402_Advanced_Memory_Buffer..jpg/640px-Intel_%C2%AE_6402_Advanced_Memory_Buffer..jpg"
+    },
+    {
+      "termino": "Bug",
+      "definicion": "Error en un software.",
+      "img": "https://www.adslzone.net/app/uploads-adslzone.net/2021/05/bug-1.jpg"
+    },
+    {
+      "termino": "Byte",
+      "definicion": "Unidad de información compuesta por 8 bits.",
+      "img": "https://miro.medium.com/v2/resize:fit:1400/1*GT4sK7zXQmuFxnd9ivs5Iw.jpeg"
+    },
+    {
+      "termino": "Chat",
+      "definicion": "Conversación escrita en tiempo real entre dos o más usuarios a través de internet o una red, utilizando un software o plataforma de mensajería instantánea",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_5O36o8Zy2kq0uleSGJBDrDh96Uq011eDzQ&s"
+    },
+    {
+      "termino": "Chip",
+      "definicion": "Circuito integrado.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4BczrjnCFqevc8XgYQAl-R960QpupnKskwQ&s"
+    },
+    {
+      "termino": "Compilador",
+      "definicion": "Software que traduce código fuente a código ejecutable.",
+      "img": "https://usuarioperu.com/wp-content/uploads/2019/11/compilador.jpeg"
+    },
+    {
+      "termino": "Comprimir",
+      "definicion": "Reducir el tamaño de un archivo.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9qcRK_opKOkWxSHNyRblGllgbkNhy-iA2Qg&s"
+    },
+    {
+      "termino": "Cookie",
+      "definicion": "Archivo que almacena información sobre la actividad del usuario en sitios web.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbcgxnRrzTGSvM1mP2nHvLq6WQtFUTkgLY3Q&s"
+    },
+    {
+      "termino": "CPU",
+      "definicion": "Unidad central de procesamiento, el cerebro de la computadora.",
+      "img": "https://m.media-amazon.com/images/I/61XLVUhdSAL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "termino": "Cracker",
+      "definicion": "Persona que viola la seguridad de sistemas informáticos.",
+      "img": "https://ayudaleyprotecciondatos.es/wp-content/uploads/2021/09/cracker-informatico.jpg"
+    },
+    {
+      "termino": "Cursor",
+      "definicion": "Indicador en pantalla para la posición del usuario.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm399GTyfvB2uL9IwxTsP_Pv5MB07vEk7C_w&s"
+    },
+    {
+      "termino": "Default",
+      "definicion": "Valor o configuración predeterminada.",
+      "img": "https://vitolavecchia.altervista.org/wp-content/uploads/2018/10/Cosa-significa-default-in-informatica-960x608.jpg"
+    },
+    {
+      "termino": "DNS",
+      "definicion": "Sistema de nombres de dominio, traduce nombres de dominio a direcciones IP.",
+      "img": "https://www.indusface.com/wp-content/uploads/2024/10/DNS-lookup-process-.png"
+    },
+    {
+      "termino": "Diodo",
+      "definicion": "Componente electrónico que permite el flujo de corriente en una dirección.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Diode-closeup.jpg"
+    },
+    {
+      "termino": "Directorio",
+      "definicion": "Carpeta que organiza archivos.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/d/db/AHEADHierarchy.JPG"
+    },
+    {
+      "termino": "Download",
+      "definicion": "Descargar archivos de Internet.",
+      "img": "https://static.vecteezy.com/system/resources/previews/000/562/163/non_2x/vector-download-download-button-illustration-data.jpg"
+    },
+    {
+      "termino": "DVD",
+      "definicion": "Disco Versátil Digital, medio de almacenamiento óptico.",
+      "img": "https://www.sony.co.cr/image/cfc33bbe066be3ec88567fe7a8d5f904?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9"
+    },
+    {
+      "termino": "E-mail",
+      "definicion": "Correo electrónico.",
+      "img": "https://images.ctfassets.net/lzny33ho1g45/best-email-app-p-img/9d9a71b806c1ea8a206766c0eac834b2/best_apps_131.jpg"
+    },
+    {
+      "termino": "Emulación",
+      "definicion": "Simulación de un sistema por otro.",
+      "img": "https://pandorafms.com/blog/wp-content/uploads/2019/07/emulacion-de-redes-featured.jpg"
+    },
+    {
+      "termino": "Encriptar",
+      "definicion": "Codificar datos para proteger su confidencialidad.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnk3TRHJJGI7k5-H_bX9WdQejopS1T2JSQg&s"
+    },
+    {
+      "termino": "Enter",
+      "definicion": "Tecla para confirmar o ejecutar una acción.",
+      "img": "https://images.tpointtech.com/computer/images/what-is-enter.png"
+    },
+    {
+      "termino": "FAQ",
+      "definicion": "Preguntas frecuentes.",
+      "img": "https://www.magearray.com/media/catalog/product/cache/9c493905437c00c182e09e2f87824a33/m/a/magearray-faq-icon.png"
+    },
+    {
+      "termino": "Fatal error",
+      "definicion": "Error crítico que causa la interrupción de un programa.",
+      "img": "https://www.partitionwizard.com/images/uploads/articles/2019/10/fatal-error/fatal-error-1.jpg"
+    },
+    {
+      "termino": "Fibra óptica",
+      "definicion": "Cable para transmisión de datos a alta velocidad mediante luz.",
+      "img": "https://www.fibramarket.com/wp-content/uploads/2022/08/fibra-optica.jpg"
+    },
+    {
+      "termino": "File",
+      "definicion": "Archivo.",
+      "img": "https://www.lifewire.com/thmb/iQRb2rtEKBg61TJKkDZECnHVmzg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/files-windows-11-7f701e4642b9489bade7b477216ba2b7.png"
+    },
+    {
+      "termino": "Firewall",
+      "definicion": "Sistema de seguridad que protege una red de accesos no autorizados.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Firewall.png"
+    },
+    {
+      "termino": "Flag",
+      "definicion": "Indicador o marca en un programa.",
+      "img": "https://cdn2.vectorstock.com/i/1000x1000/72/86/flag-computer-symbol-vector-11247286.jpg"
+    },
+    {
+      "termino": "Gateway",
+      "definicion": "Dispositivo que conecta redes diferentes.",
+      "img": "https://www.cisco.com/c/dam/assets/swa/img/anchor-info/graphic-network-gateway-628x353.jpg"
+    },
+    {
+      "termino": "Gigabyte",
+      "definicion": "Unidad de medida de almacenamiento de datos, equivalente a 1024 megabytes.",
+      "img": "https://definicion.de/wp-content/uploads/2009/09/gigabyte-1.jpg"
+    },
+    {
+      "termino": "Hacker",
+      "definicion": "Persona con habilidades técnicas avanzadas en informática.",
+      "img": "https://www.infosecurityeurope.com/content/dam/sitebuilder/rxuk/infeu/images/blogs/ethical-hacking.jpg/_jcr_content/renditions/original.image_file.551.310.file/ethical-hacking.jpg"
+    },
+    {
+      "termino": "Hardware",
+      "definicion": "Componentes físicos de una computadora.",
+      "img": "https://vuniversity.in/wp-content/uploads/2024/02/Hardware%E2%80%90defining-hardware.png"
+    },
+    {
+      "termino": "HTML",
+      "definicion": "Lenguaje de marcado para crear páginas web.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj5K08rKxUEHZsgxTHElnQc6bFEmuVzD6FUg&s"
+    },
+    {
+      "termino": "Hub",
+      "definicion": "Dispositivo para conectar computadoras en una red local.",
+      "img": "https://extremetechcr.com/tienda/25334/hub-unno-tekno-4-puertos-usb-30-hb1011bk.jpg"
+    },
+    {
+      "termino": "Icono",
+      "definicion": "img pequeña que representa un programa o archivo.",
+      "img": "https://s1.significados.com/foto/iconos-interior.jpg?class=article"
+    },
+    {
+      "termino": "Inteligencia artificial",
+      "definicion": "Capacidad de las máquinas para realizar tareas que requieren inteligencia humana.",
+      "img": "https://www.scidev.net/america-latina/wp-content/uploads/sites/3/inteligencia-arificial-996x567.jpg"
+    },
+    {
+      "termino": "Interface",
+      "definicion": "Medio de comunicación entre el usuario y la computadora.",
+      "img": "https://i.workana.com/wp-content/uploads/2020/03/GUI-WORKANA-GLOSARIO-850x400.jpg"
+    },
+    {
+      "termino": "Internet",
+      "definicion": "Red global de computadoras interconectadas.",
+      "img": "https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png"
+    },
+    {
+      "termino": "Intranet",
+      "definicion": "Red privada dentro de una organización.",
+      "img": "https://images.ctfassets.net/aoyx73g9h2pg/DPpmOd8WiZmHMVSQv7YT1/8696d8962b5e8d2e4a38dd7b478eb5ce/What-is-an-Intranet-Blog.jpg"
+    },
+    {
+      "termino": "Label",
+      "definicion": "Etiqueta o identificador.",
+      "img": "https://lh6.googleusercontent.com/proxy/X1Qn78IKFf_R9ktvF9bVfaCdaRQupzSU8kDkVw7M0A43a01s01CB42MyPXQY7tZH4W9zZKtG3KNT1xRDf018eDVXiWpSxic6VpA"
+    },
+    {
+      "termino": "LAN",
+      "definicion": "Red de área local.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Home_LAN_local_area_network_example_diagram.png"
+    },
+    {
+      "termino": "Laptop",
+      "definicion": "Computadora portátil.",
+      "img": "https://cdn.thewirecutter.com/wp-content/media/2024/11/BEST-LAPTOPS-PHOTO-VIDEO-EDITING-2048px-6.jpg"
+    },
+    {
+      "termino": "Linux",
+      "definicion": "Sistema operativo de código abierto.",
+      "img": "https://miro.medium.com/v2/resize:fit:1400/0*Qqqd7UsfFDPL7WXh.jpeg"
+    },
+    {
+      "termino": "Macintosh",
+      "definicion": "Línea de computadoras de Apple.",
+      "img": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/01/23/USAT/72328350007-macintosh-topper.png?crop=2455,2451,x668,y0"
+    },
+    {
+      "termino": "Mainframe",
+      "definicion": "Computadora grande y potente usada por organizaciones.",
+      "img": "https://techterms.com/img/xl/mainframe_172.png"
+    },
+    {
+      "termino": "Megabyte",
+      "definicion": "Unidad de medida de almacenamiento de datos, equivalente a 1024 kilobytes.",
+      "img": "https://cdn-icons-png.flaticon.com/512/2620/2620573.png"
+    },
+    {
+      "termino": "Memoria cache",
+      "definicion": "Memoria de acceso rápido para datos usados frecuentemente.",
+      "img": "https://hardzone.es/app/uploads-hardzone.es/2020/01/CPU-cache-1.jpg"
+    },
+    {
+      "termino": "Microprocesador",
+      "definicion": "Circuito integrado que ejecuta instrucciones en una computadora.",
+      "img": "https://s1.significados.com/foto/microprocesador.jpg?class=article"
+    },
+    {
+      "termino": "Módem",
+      "definicion": "Dispositivo que modula y demodula señales para comunicación por línea telefónica.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoczHlIMZg78wIW590YQh3kJjDtvm13Q4P5A&s"
+    },
+    {
+      "termino": "Mouse",
+      "definicion": "Dispositivo para interactuar con la interfaz gráfica de usuario.",
+      "img": "https://m.media-amazon.com/images/I/61l33dfloaL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "termino": "MP3",
+      "definicion": "Formato de compresión de audio.",
+      "img": "https://cdn-icons-png.flaticon.com/512/28/28843.png"
+    },
+    {
+      "termino": "Nanosegundo",
+      "definicion": "Unidad de tiempo igual a una milmillonésima de segundo.",
+      "img": "https://s2.ppllstatics.com/elcorreo/www/multimedia/202210/01/media/cortadas/reloj1-kClH-U1802273774161uG-1248x770@RC.jpg"
+    },
+    {
+      "termino": "Navegador",
+      "definicion": "Software para visualizar páginas web.",
+      "img": "https://images.ctfassets.net/lzny33ho1g45/5ZJErf03aLYbP4HwY0AV1X/fb458a09dc43b7bcd0f76e372e7de152/best-web-browsers.jpg"
+    },
+    {
+      "termino": "Nodo",
+      "definicion": "Punto de conexión en una red.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/3/31/BastionFirewall.png"
+    },
+    {
+      "termino": "POP3",
+      "definicion": "Protocolo para recibir correo electrónico.",
+      "img": "https://www.getmailbird.com/assets/components/phpthumbof/cache/How-POP3-works-1024x410.8775f553ee944e68e6af1552f39e1669.webp"
+    },
+    {
+      "termino": "Procesador",
+      "definicion": "Unidad central de procesamiento (CPU).",
+      "img": "https://m.media-amazon.com/images/I/61XLVUhdSAL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "termino": "Programa",
+      "definicion": "Conjunto de instrucciones para que una computadora realice una tarea.",
+      "img": "https://ahoraeg.com/listas/wp-content/uploads/2025/01/Programa-Informatico-%E2%80%93-Concepto-tipos-y-ejemplos.webp"
+    },
+    {
+      "termino": "Protocolo",
+      "definicion": "Conjunto de reglas para la comunicación entre dispositivos en una red.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYfQN2zAijcyeH1d8OtiGD0x_1KrYUao9j_A&s"
+    },
+    {
+      "termino": "Puerto paralelo",
+      "definicion": "Interfaz para conectar dispositivos a una computadora, transmite datos en paralelo.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Parallel_computer_printer_port.jpg"
+    },
+    {
+      "termino": "Puerto serial",
+      "definicion": "Interfaz para conectar dispositivos a una computadora, transmite datos en serie.",
+      "img": "https://definicion.de/wp-content/uploads/2013/09/puerto-serial.jpg"
+    },
+    {
+      "termino": "RAM",
+      "definicion": "Memoria de acceso aleatorio, memoria principal de la computadora.",
+      "img": "https://cdn.staticont.net/pages/0012/62/31ee9bcd3f945d2edde3a727f02d6eeb9668c23d.webp"
+    },
+    {
+      "termino": "Realidad virtual",
+      "definicion": "Entornao simulado generado por computadora.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX4zNuz8oWIH9v1jnfSuH1z_TNpPeqlC7Izw&s"
+    },
+    {
+      "termino": "Red",
+      "definicion": "Conjunto de computadoras interconectadas.",
+      "img": "https://tecnologia-informatica.com/wp-content/uploads/2018/06/wifi-redes-inalambricas-1.jpeg"
+    },
+    {
+      "termino": "ROM",
+      "definicion": "Memoria de solo lectura, almacena datos permanentes.",
+      "img": "https://www.thoughtco.com/thmb/5RddHAxNx3JcH7PdKG4GtbV6LS8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Amiga_1200_Kickstart_3.0_ROMs-56b429575f9b5829f82c66bd.jpg"
+    },
+    {
+      "termino": "Router",
+      "definicion": "Dispositivo que dirige el tráfico de datos entre redes.",
+      "img": "https://cdn.thewirecutter.com/wp-content/media/2024/07/wifirouters-2048px-3572.jpg"
+    },
+    {
+      "termino": "Servidor",
+      "definicion": "Computadora que proporciona servicios a otras computadoras en una red.",
+      "img": "https://dazzet.co/wp-content/uploads/2023/10/98029a9271165ff21c0ac9c52c19e52b170da75d-1024x536-1.webp"
+    },
+    {
+      "termino": "Sistema operativo",
+      "definicion": "Software que gestiona los recursos de una computadora.",
+      "img": "https://ecosistemas.win/wp-content/uploads/sistema-operativo.png"
+    },
+    {
+      "termino": "Software",
+      "definicion": "Conjunto de programas y datos que permiten a una computadora realizar tareas.",
+      "img": "https://www.coderus.com/wp-content/uploads/2020/11/different-types-of-software-coderus-branded-image.jpg"
+    },
+    {
+      "termino": "TCP/IP",
+      "definicion": "Conjunto de protocolos de comunicación usados en Internet.",
+      "img": "https://www.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/What%20is%20TCPIP%20(Signal)/TCP-IP.png?width=1320&name=TCP-IP.png"
+    },
+    {
+      "termino": "Terminal",
+      "definicion": "Dispositivo para interactuar con una computadora.",
+      "img": "https://i.ytimg.com/vi/SkB-eRCzWIU/maxresdefault.jpg"
+    },
+    {
+      "termino": "Unix",
+      "definicion": "Sistema operativo multitarea y multiusuario.",
+      "img": "https://miro.medium.com/v2/resize:fit:910/1*mGWjCa2BFlJwwgZAwE6spA.jpeg"
+    },
+    {
+      "termino": "USB",
+      "definicion": "Bus serie universal, interfaz para conectar dispositivos a una computadora.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5EbumahYxIJ0lw2JwAzLvY5d0rpMqguw2Yg&s"
+    },
+    {
+      "termino": "Videoconferencia",
+      "definicion": "Comunicación en tiempo real por video y audio.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1IjRLVrmuNkDXLe4BeYL-sGZvMKDE1CE5Q&s"
+    },
+    {
+      "termino": "Virus",
+      "definicion": "Software malicioso que se propaga a través de computadoras.",
+      "img": "https://rymportatiles.com.pe/cdn/shop/articles/eliminar-virus-pc-laptop.jpg?v=1732854732&width=800g"
+    },
+    {
+      "termino": "Windows",
+      "definicion": "Sistema operativo de Microsoft.",
+      "img": "https://foroalfa.org/imagenes/ilustraciones/1121.jpg"
+    },
+    {
+      "termino": "WinZip",
+      "definicion": "Software para comprimir y descomprimir archivos.",
+      "img": "https://www.veracode.com/wp-content/uploads/2022/10/verified-directory-winzip-logo-1.jpg"
+    },
+    {
+      "termino": "Wireless",
+      "definicion": "Tecnología de comunicación sin cables.",
+      "img": "https://collectionperformance.com/wp-content/uploads/2023/06/how-wireless-networks-work.png"
+    },
+    {
+      "termino": "Zip",
+      "definicion": "Formato de compresión de archivos.",
+      "img": "https://www.sweetwater.com/sweetcare/media/2019/08/How-to-Zip-and-Unzip-Files-Hero-Image.png"
+    }
+  ]
+}

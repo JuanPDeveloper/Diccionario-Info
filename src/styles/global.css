@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-tt: tt 0.5s ease;
+  --animate-shake: shake 1s linear both;
+
+  @keyframes tt{
+    from {
+      transform: translateY(-100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+
+  @keyframes shake{
+    0%,
+    100% {
+      animation-delay: 2s;
+      transform: rotate(0deg);
+      transform-origin: 50% 50%;
+    }
+    10% {
+      transform: rotate(4deg);
+    }
+    20%,
+    40%,
+    60% {
+      transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      transform: rotate(4deg);
+    }
+    80% {
+      transform: rotate(-4deg);
+    }
+    90% {
+      transform: rotate(4deg);
+    }
+  }
+}

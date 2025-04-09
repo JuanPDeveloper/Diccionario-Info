@@ -1,0 +1,885 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../../public/JSON/conceptos.json";
+interface Concepto {
+  termino: string;
+  definicion: string;
+  img: string;
+}
+
+interface ConceptosData {
+  conceptos: Concepto[];
+  txt: string;
+}
+
+const Conceptos = data as ConceptosData;
+---
+
+<Layout>
+  <main class="w-[80%] lg:w-[50%] m-auto my-24 flex flex-col gap-y-4">
+    <h2 class="font-bold text-4xl text-center mb-12">Todas las definiciones</h2>
+    <section class="todasLasLetras">
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          A <a
+            href="/letra/a"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("a")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          B <a
+            href="/letra/b"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("b")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          C <a
+            href="/letra/c"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("c")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          D <a
+            href="/letra/d"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("d")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          E <a
+            href="/letra/e"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("e")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          F <a
+            href="/letra/f"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("f")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          G <a
+            href="/letra/g"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("g")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          H <a
+            href="/letra/h"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("h")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          I <a
+            href="/letra/i"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("i")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          J <a
+            href="/letra/j"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("j")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          K <a
+            href="/letra/k"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("k")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          L <a
+            href="/letra/l"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("l")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          M <a
+            href="/letra/m"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("m")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          N <a
+            href="/letra/n"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("n")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          Ñ <a
+            href="/letra/ñ"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("ñ")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          O <a
+            href="/letra/o"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("o")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          P <a
+            href="/letra/p"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("p")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          Q <a
+            href="/letra/q"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("q")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          R <a
+            href="/letra/r"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("r")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          S <a
+            href="/letra/s"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("s")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          T <a
+            href="/letra/t"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("t")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          U <a
+            href="/letra/u"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("u")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          V <a
+            href="/letra/v"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("v")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          W <a
+            href="/letra/w"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("w")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          X <a
+            href="/letra/x"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("x")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          Y <a
+            href="/letra/y"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("y")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl flex justify-between bg-purple-500 text-white p-4"
+        >
+          Z <a
+            href="/letra/z"
+            class="bg-purple-500 p-2 text-lg text-white rounded-lg">Ver más</a
+          >
+        </h1>
+        {
+          Conceptos.conceptos
+            .filter((concepto) =>
+              concepto.termino.toLowerCase().startsWith("z")
+            )
+            .map((concepto) => (
+              <div class=" flex flex-col lg:grid grid-cols-2 justify-center items-center">
+                <div class="flex flex-col m-2 p-4">
+                  <p class="font-bold">{concepto.termino}</p>
+                  <p>{concepto.definicion}</p>
+                </div>
+                <img
+                  src={concepto.img}
+                  alt={concepto.termino}
+                  class="m-auto my-2 size-64 object-center object-contain"
+                />
+              </div>
+            ))
+        }
+      </div>
+    </section>
+  </main>
+</Layout>

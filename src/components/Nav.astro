@@ -1,0 +1,195 @@
+---
+
+---
+
+<script>
+  const $searchByLetter = document.getElementById("searchByLetter");
+  const $letterBox = document.getElementById("letterBox");
+
+  $searchByLetter?.addEventListener("click", () => {
+    $letterBox?.classList.toggle("grid");
+    $letterBox?.classList.toggle("hidden");
+  });
+</script>
+<nav
+  class="bg-purple-500 text-white flex justify-evenly items-center p-4 text-lg fixed top-0 w-[100%]"
+>
+  <a href="/" class="text-2xl bg-white p-2 text-purple-500 rounded-lg font-bold"
+    >Inicio</a
+  >
+  <ul class="flex flex-col relative">
+    <li
+      class="font-bold cursor-pointer bg-white text-purple-500 p-2 rounded-lg text-2xl"
+      id="searchByLetter"
+    >
+      Filtrar por letra
+    </li>
+    <ul
+      class="grid-cols-3 gap-2 text-black absolute top-12 w-[100%] bg-purple-500 p-2 rounded-b-xl hidden animate-tt"
+      id="letterBox"
+    >
+      <a
+        href="/letra/a"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        A
+      </a>
+      <a
+        href="/letra/b"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        B
+      </a>
+      <a
+        href="/letra/c"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        C
+      </a>
+      <a
+        href="/letra/d"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        D
+      </a>
+      <a
+        href="/letra/e"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        E
+      </a>
+      <a
+        href="/letra/f"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        F
+      </a>
+      <a
+        href="/letra/g"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        G
+      </a>
+      <a
+        href="/letra/h"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        H
+      </a>
+      <a
+        href="/letra/i"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        I
+      </a>
+      <a
+        href="/letra/j"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        J
+      </a>
+      <a
+        href="/letra/k"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        K
+      </a>
+      <a
+        href="/letra/l"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        L
+      </a>
+      <a
+        href="/letra/m"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        M
+      </a>
+      <a
+        href="/letra/n"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        N
+      </a>
+      <a
+        href="/letra/ñ"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        Ñ
+      </a>
+      <a
+        href="/letra/o"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        O
+      </a>
+      <a
+        href="/letra/p"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        P
+      </a>
+      <a
+        href="/letra/q"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        Q
+      </a>
+      <a
+        href="/letra/r"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        R
+      </a>
+      <a
+        href="/letra/s"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        S
+      </a>
+      <a
+        href="/letra/t"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        T
+      </a>
+      <a
+        href="/letra/u"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        U
+      </a>
+      <a
+        href="/letra/v"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        V
+      </a>
+      <a
+        href="/letra/w"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        W
+      </a>
+      <a
+        href="/letra/x"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        X
+      </a>
+      <a
+        href="/letra/y"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        Y
+      </a>
+      <a
+        href="/letra/z"
+        class="bg-white rounded-xl text-center cursor-pointer rounded-b-xl"
+      >
+        Z
+      </a>
+    </ul>
+  </ul>
+</nav>
